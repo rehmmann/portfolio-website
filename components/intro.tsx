@@ -31,13 +31,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/../public/Cycling.jpg"
+              src="/../public/Cycling.png"
               alt="Rehman portrait"
-              width="220"
-              height="220"
-              // quality="95"
-              // priority={true}
-              className="h-25 w-25 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              width="250"
+              height="180"
+              quality="95"
+              priority={true}
+              className="h-26 w-26 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
