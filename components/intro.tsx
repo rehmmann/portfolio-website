@@ -34,8 +34,8 @@ export default function Intro() {
             <Image
               src={cycleImg}
               alt="Rehman portrait"
-              width="250"
-              height="180"
+              width="235"
+              height="235"
               quality="95"
               priority={true}
               className="h-26 w-26 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
