@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import cycleImg from "@/public/Cycling.png";
+import introImage from "@/public/ai-gen.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={cycleImg}
+              src={introImage}
               alt="Rehman portrait"
               width="235"
               height="235"
