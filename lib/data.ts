@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/peerprep.png";
 import rmtdevImg from "@/public/pepper.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -24,7 +22,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiences",
     hash: "#experience",
   },
   {
@@ -90,6 +88,10 @@ export const projectsData = [
       "A collaborative coding platform to practce coding questions after being matched with a peer.",
     tags: ["React JS", "Node js", "Mongo DB", "GCP", "Docker"],
     imageUrl: corpcommentImg,
+    repoUrl:
+      "https://github.com/CS3219-AY2324S1/ay2324s1-course-assessment-g52",
+    documentationUrl:
+      "https://docs.google.com/document/d/1E6tAsduvCmOeYEgG3CiGn-0PnPJuchkXrDdVyHXT1RU/edit?usp=sharing",
   },
   {
     title: "Pepper",
@@ -97,14 +99,10 @@ export const projectsData = [
       "A mobile dating app where users can swipe on others to match and chat.",
     tags: ["Flutter", "Firebase"],
     imageUrl: rmtdevImg,
+    repoUrl: "https://github.com/rehmmann/Pepper-1",
+    documentationUrl:
+      "https://docs.google.com/document/d/1zkatixNCb6FGP4Hdvk_Sb_lOUn6EkSFxwJ2F9nu8nLo/edit?usp=sharing",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
 ] as const;
 
 export const skillsData = [
