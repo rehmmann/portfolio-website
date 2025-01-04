@@ -7,9 +7,11 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import introImage from "@/public/ai-gen.jpg";
+import introImage from "@/public/ai_avatar_4.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -112,6 +114,14 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://twitter.com/rehmanbuilds"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faSquareXTwitter} className="w-5 h-5" />
         </a>
       </motion.div>
     </section>

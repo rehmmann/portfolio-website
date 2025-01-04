@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/peerprep.png";
 import rmtdevImg from "@/public/pepper.png";
-
+import hiredAiImg from "@/public/hiredai.jpg";
 export const links = [
   {
     name: "Home",
@@ -83,6 +83,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Hired AI",
+    description:
+      "AI powered platform tailoring resumes for each job application. Helping job seekers land more interviews.",
+    tags: ["React JS", "FAST API", "Docker", "Langchain"],
+    imageUrl: hiredAiImg,
+    repoUrl: "",
+    documentationUrl: "",
+    deployedAppUrl: "https://tryhiredai.vercel.app",
+  },
+  {
     title: "PeerPrep",
     description:
       "A collaborative coding platform to practce coding questions after being matched with a peer.",
@@ -92,6 +102,7 @@ export const projectsData = [
       "https://github.com/CS3219-AY2324S1/ay2324s1-course-assessment-g52",
     documentationUrl:
       "https://docs.google.com/document/d/1E6tAsduvCmOeYEgG3CiGn-0PnPJuchkXrDdVyHXT1RU/edit?usp=sharing",
+    deployedAppUrl: "",
   },
   {
     title: "Pepper",
@@ -102,6 +113,7 @@ export const projectsData = [
     repoUrl: "https://github.com/rehmmann/Pepper-1",
     documentationUrl:
       "https://docs.google.com/document/d/1zkatixNCb6FGP4Hdvk_Sb_lOUn6EkSFxwJ2F9nu8nLo/edit?usp=sharing",
+    deployedAppUrl: "",
   },
 ] as const;
 
