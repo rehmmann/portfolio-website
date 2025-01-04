@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import introImage from "@/public/ai_avatar_4.jpg";
+import introImage from "@/public/ai-gen.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
