@@ -90,7 +90,7 @@ export const projectsData = [
     imageUrl: hiredAiImg,
     repoUrl: "",
     documentationUrl: "",
-    deployedAppUrl: "https://tryhiredai.vercel.app",
+    deployedAppUrl: "https://hiredai.me",
   },
   {
     title: "PeerPrep",
